@@ -25,6 +25,13 @@ header {
   img {
     margin-right: 0.5em;
   }
+  @media screen and (max-width: 768px) {
+    display: block;
+    margin-left: -5em;
+    h1, h1 a {
+      font-size: 22px;
+    }
+  }
 }
 nav {
   width: 50%;
@@ -44,6 +51,16 @@ nav {
   a {
     color: #575757;
 
+  }
+  @media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      margin-right: -7em;
+
+    }
+    li {
+      font-size: 12px;
+    }
   }
 }
 

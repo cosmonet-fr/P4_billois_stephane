@@ -29,6 +29,16 @@ header img {
   margin-right: 0.5em;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    margin-left: -5em;
+  }
+  header h1, header h1 a {
+    font-size: 22px;
+  }
+}
+
 nav {
   width: 50%;
 }
@@ -50,6 +60,16 @@ nav li {
 
 nav a {
   color: #575757;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    margin-right: -7em;
+  }
+  nav li {
+    font-size: 12px;
+  }
 }
 
 .texte, .texteCitation {
