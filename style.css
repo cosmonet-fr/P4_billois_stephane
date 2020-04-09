@@ -21,6 +21,10 @@ a:focus {
   text-decoration: none;
 }
 
+.btn:focus {
+  border-radius: 40px;
+}
+
 .top {
   display: flex;
   justify-content: space-around;
@@ -78,7 +82,7 @@ nav ul {
 
 nav li {
   margin-right: 8px;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 nav a {
@@ -94,7 +98,7 @@ nav a {
     margin-right: -7em;
   }
   nav li {
-    font-size: 12px;
+    font-size: 0.8em;
   }
 }
 
@@ -122,6 +126,14 @@ nav a {
   .texte {
     width: 300px;
   }
+}
+
+.titreIcons {
+  font-family: helvetica;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333 !important;
 }
 
 .texteCitation {
@@ -971,7 +983,7 @@ footer .fa:hover {
 
 .btn-atomic-tangerine {
   background: #F3976C;
-  color: #FFFFFF !important;
+  color: #333 !important;
 }
 
 .btn-atomic-tangerine:hover {

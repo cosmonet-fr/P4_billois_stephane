@@ -21,6 +21,13 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  &:focus {
+    border-radius: 40px;
+  }
+
+}
+
 .top {
   display: flex;
   justify-content: space-around;
@@ -67,7 +74,7 @@ nav {
   }
   li {
     margin-right: 8px;
-    font-size: 16px;
+    font-size: 1.2em;
   }
   a {
     color: #575757;
@@ -81,7 +88,7 @@ nav {
 
     }
     li {
-      font-size: 12px;
+      font-size: 0.8em;
     }
   }
 }
@@ -93,8 +100,6 @@ nav {
     font-family: sans-serif;
     color: #575757;
   }
-
-
 }
 
 .texte {
@@ -107,8 +112,18 @@ nav {
   @media screen and (max-width: 768px) {
     width: 300px;
   }
+}
+
+.titreIcons {
+
+  font-family: helvetica;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333 !important;
 
 }
+
 .texteCitation {
   margin-top: 3em;
   width: 562px;
@@ -957,7 +972,7 @@ footer {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333!important;
 }
 
 .btn-atomic-tangerine:hover {
