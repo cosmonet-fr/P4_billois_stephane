@@ -8,6 +8,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: underline dotted #999;
+}
+
+a:focus {
+  background-color: #FFB300;
+  border-radius: 3px;
+}
+
+.nom a, .btn {
+  text-decoration: none;
+}
+
 .top {
   display: flex;
   justify-content: space-around;
@@ -30,13 +43,23 @@ header img {
 }
 
 @media screen and (max-width: 768px) {
+  header img {
+    margin-top: 32%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   header {
-    display: block;
-    margin-left: -5em;
+    margin-left: -3em;
   }
   header h1, header h1 a {
     font-size: 22px;
   }
+}
+
+.titre {
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
@@ -63,6 +86,9 @@ nav a {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    width: 25%;
+  }
   nav ul {
     flex-direction: column;
     margin-right: -7em;
@@ -92,6 +118,12 @@ nav a {
   line-height: 33px;
 }
 
+@media screen and (max-width: 768px) {
+  .texte {
+    width: 300px;
+  }
+}
+
 .texteCitation {
   margin-top: 3em;
   width: 562px;
@@ -107,14 +139,26 @@ nav a {
   font-style: normal;
 }
 
+@media screen and (max-width: 768px) {
+  .texteCitation {
+    width: 300px;
+  }
+}
+
 .fondCouleur {
-  background-image: url(img/dots-bg.png);
-  background-image: url(img/texture-paper.png);
+  background-image: url(img/dots-bg.png), url(img/texture-paper.png);
   background-color: rgba(165, 147, 99, 0.8);
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-6 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .col-sm-12 {
@@ -898,6 +942,19 @@ footer .fa {
 
 footer .fa:hover {
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  footer .fa {
+    margin: .5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .row-no-gutters {
