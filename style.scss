@@ -105,7 +105,7 @@ nav {
 .texte {
   width: 613px;
   p {
-    font-size: 20px;
+    font-size: 1.4em;
     font-style: normal;
     line-height: 33px;
   }
@@ -128,7 +128,7 @@ nav {
   margin-top: 3em;
   width: 562px;
   p {
-    font-size: 19px;
+    font-size: 1.35em;
     font-style: italic;
     span {
       font-size: 14px;
@@ -933,7 +933,7 @@ footer {
     p, a, ul, li{
       color: black !important;
     }
-    .fa {
+    .fa-2x {
       color: #fad4c3;
       transition: all 400ms;
       &:hover{
@@ -943,7 +943,7 @@ footer {
       }
     }
     @media screen and (max-width: 768px) {
-      .fa {
+      .fa-2x {
         margin: .5em;
       }
 
