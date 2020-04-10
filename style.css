@@ -15,6 +15,7 @@ a {
 a:focus {
   background-color: #FFB300;
   border-radius: 3px;
+  text-decoration: underline 2px red;
 }
 
 .nom a, .btn {
