@@ -934,7 +934,7 @@ footer {
     p, a, ul, li{
       color: black !important;
     }
-    .fa-2x {
+    .fa {
       color: #fad4c3;
       transition: all 400ms;
       &:hover{
@@ -944,7 +944,7 @@ footer {
       }
     }
     @media screen and (max-width: 768px) {
-      .fa-2x {
+      .fa {
         margin: .5em;
       }
 

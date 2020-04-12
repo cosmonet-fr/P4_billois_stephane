@@ -948,17 +948,17 @@ footer p, footer a, footer ul, footer li {
   color: black !important;
 }
 
-footer .fa-2x {
+footer .fa {
   color: #fad4c3;
   transition: all 400ms;
 }
 
-footer .fa-2x:hover {
+footer .fa:hover {
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  footer .fa-2x {
+  footer .fa {
     margin: .5em;
   }
 }
